@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Rock paper or scissors game" >
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css" >
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="container">
+        <section class="player card">
+          <h2>Player</h2>
+          <section class="cta-btns">
+            <button class="btn" value="rock">Rock</button>
+            <button class="btn" value="paper">Paper</button>
+            <button class="btn" value="scissors">Scissors</button>
+          </section>
+          <section class="score">
+            <h3>Score</h3>
+            <p class="player-score">0</p>
+          </section>
+        </section>
+        <section class="computer card">
+          <h2>Computer</h2>
+          <section class="score">
+            <h3>Score</h3>
+            <p class="computer-score">0</p>
+          </section>
+        </section>
+      </section>
+      <section class="card">
+        <h2>Round result</h2>
+        <p class="round-result">Let's go...</p>
+      </section>
+
+      <section class="modal"></section>
+      <section class="game-result-player-won card">
+        <h2>Game Result</h2>
+        <p class="game-score-player">Congrats you won!</p>
+        <button class="btn player-try">Play again</button>
+      </section>
+      <section class="game-result-player-lost card">
+        <h2>Game Result</h2>
+        <p class="game-score-computer">
+          Computer won.., you will do it next time!
+        </p>
+        <button class="btn computer-try">Play again</button>
+      </section>
+    </main>
+  </body>
+</html>
